@@ -37,4 +37,5 @@ for ip in red_ITSP.hosts():
     else:
         print(f"{ip} - Inactiva")
         archivo.write(f"{ip} - inactiva\n")  
+       archivo.close()
 
